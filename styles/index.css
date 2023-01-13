@@ -1,0 +1,136 @@
+body {
+  background-color: whitesmoke !important;
+  font-family: sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .row {
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+#about {
+  margin-top: 10em;
+  border: 1px solid #eee;
+  background-color: white;
+  padding-bottom: 1em;
+}
+
+.large-8 {
+  width: 66.66667%;
+}
+
+.large-offset-2 {
+  margin-left: 16.66667%;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+.column,
+.columns {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+#about img {
+  max-width: 15em;
+  position: relative;
+  bottom: 7.5em;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#about .details {
+  margin-top: -2em;
+}
+
+#about h2 {
+  color: #646464;
+  font-size: 3.8em;
+  padding-bottom: 1em;
+}
+
+#about #writing-text {
+  font-weight: 300;
+  font-size: 0.7em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(200, 65, 43);
+}
+
+.cta .cta-button {
+    color: #cc4b37;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 103, 68, 0.91);
+    border-radius: 50px;
+    background: white;
+}
+
+.my-button {
+    font-size: 1em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    letter-spacing: 0;
+    border-radius: 45px;
+    height: auto;
+    padding: 0.8em 2.1em;
+}
+
+.my-button:hover {
+	cursor: pointer;
+	padding: .8em 2.7em;
+    text-decoration: none;
+}
+
+/* .my-button:active,
+.my-button:focus,
+.my-button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+} */
+/* Parent footer styles */
+#footer-cta {
+    background-color: rgba(255, 103, 68, 0.91);
+    padding: 6em 4em 5.6em;
+}
+
+#footer-cta h2 {
+    color: white;
+}
+
+#footer-cta p {
+    color: #fff;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.medium-8 {
+    width: 66.66667%;
+}
+
+.medium-offset-2 {
+    margin-left: 16.66667%;
+}
+
+#startButtonDiv {
+    margin-top: 3em;
+}
+
+#footer-cta a {
+    border: 2px solid #fff;
+    border-radius: 45px;
+    color: #fff;
+}

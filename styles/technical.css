@@ -1,0 +1,73 @@
+#experience {
+  background-color: #4c6d86;
+  padding: 6em 4em 5.6em;
+}
+
+.column.row.row,
+.row.row.columns {
+  float: none;
+}
+
+.column, .columns {
+  width: 100%;
+  float: left;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+#experience h2 {
+  color: #fff;
+  margin-bottom: 0.7em;
+}
+
+#experience h3 {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#experience .tag-line {
+  color: white;
+  font-size: 1.4em;
+}
+
+.medium-4 {
+  width: 33.33333%;
+}
+
+.experience-topics ul {
+  padding-left: 0px !important;
+  margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: 1.6;
+}
+
+.experience-topics ul li {
+  list-style: none;
+  color: #bbd2ff;
+  font-family: "Maven pro", sans-serif;
+  font-weight: 500;
+}
+
+/* Projects section */
+#projects {
+  margin-top: 10em;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  padding-bottom: 10em;
+}
+
+#projects a {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  width: 18rem;
+}
