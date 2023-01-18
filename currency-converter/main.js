@@ -1,6 +1,6 @@
 // Getting the data on first load
 function getOnloadData() {
-  const url = "http://www.floatrates.com/daily/usd.json";
+  const url = "https://www.floatrates.com/daily/usd.json";
 
   // fetching data from url
   fetch(url)
@@ -44,7 +44,7 @@ function changeData(myId = null, currency = null) {
     "destinationCurrency"
   );
 
-  let url = `http://www.floatrates.com/daily/${selectedSourceCurrency.value}.json`;
+  let url = `https://www.floatrates.com/daily/${selectedSourceCurrency.value}.json`;
 
   fetch(url)
     .then((response) => response.json())
@@ -75,12 +75,12 @@ function results() {
   // Declaring variables
   let sourceSelect = document.getElementById("sourceCurrency");
   let destinationSelect = document.getElementById("destinationCurrency");
-  let destinationUrl = `http://www.floatrates.com/daily/${destinationSelect.value}.json`;
+  let destinationUrl = `https://www.floatrates.com/daily/${destinationSelect.value}.json`;
 
   fetch(destinationUrl)
     .then((response) => response.json())
     .then((destinationData) => {
-      let url = `http://www.floatrates.com/daily/${sourceSelect.value}.json`;
+      let url = `https://www.floatrates.com/daily/${sourceSelect.value}.json`;
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
