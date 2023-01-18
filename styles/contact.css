@@ -19,7 +19,6 @@
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out, color 0.2s 0.3s;
     letter-spacing: 0;
     border-radius: 45px;
