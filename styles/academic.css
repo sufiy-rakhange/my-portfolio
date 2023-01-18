@@ -1,6 +1,12 @@
 #academic {
-    margin-top: 10em;
-    border-bottom: 1px solid #eee;
-    background-color: white;
-    padding-bottom: 16em;
-  }
+  margin-top: 10em;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  padding-bottom: 16em;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  max-width: 2em;
+}

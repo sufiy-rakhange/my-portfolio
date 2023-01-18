@@ -4,7 +4,11 @@ body {
 
 /* Navbar  */
 .bg-orange {
-    background-color: rgba(255, 103, 68, 0.91) !important;
+    background-color: #ff6744e8 !important;
+}
+
+.navbar-nav .nav-item .active {
+  text-decoration: 2px solid underline;
 }
 
 .text-center {
@@ -14,7 +18,7 @@ body {
 
 #footer {
     padding: 5em 4em 4em;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 #footer #logo {
@@ -40,7 +44,7 @@ body {
     margin-top: 1.6em;
     font-family: "Maven pro", sans-serif;
     font-weight: 500;
-    color: #7d7d7d;
+    color: #525252;
 }
 
 #footer #email {

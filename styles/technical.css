@@ -1,5 +1,5 @@
 #experience {
-  background-color: #4c6d86;
+  background-color: #3E586F;
   padding: 6em 4em 5.6em;
 }
 
@@ -71,4 +71,9 @@
 
 .card {
   width: 18rem;
+}
+
+.img-circle {
+  border-radius: 50%;
+  max-width: 2em;
 }

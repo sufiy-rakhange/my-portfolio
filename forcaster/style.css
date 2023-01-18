@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+}
+
+#container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+.display-none {
+    display: none;
+}
+
+.text-center button {
+    background-color: white;
+    padding: 0.8em 8em;
+    border-top: none;
+    color: rgba(255, 103, 68, 0.91);
+    border: 1px solid rgba(255, 103, 68, 0.91);
+}
+
+.text-center .active {
+    background-color: rgba(255, 103, 68, 0.91);
+    padding: 0.8em 8em;
+    border-top: none;
+    color: white;
+    border: 1px solid rgba(255, 103, 68, 0.91);
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(255, 103, 68, 0.91);
+}

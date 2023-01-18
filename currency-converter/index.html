@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Including styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Including javascript -->
+    <script src="main.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Currency Converter</title>
+</head>
+
+<body onload="getOnloadData()">
+    <div class="container padding-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="display-row margin-bottom-1">
+                    <div class="col-md-8 mt-3">
+                        <div class="form-group">
+                            <label for="amount">Enter an amount</label>
+                            <input value="1" onkeyup="currencyValidation(this.value)" type="text" class="form-control" id="amount">
+                            <span class="d-none" id="error">
+                                <strong>Amount cannot be zero or negative</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="sourceCurrency" class="font-weight-bold"> From</label>
+                            <select onchange="changeData(this.id)" id="sourceCurrency" class="form-control"></select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="destinationCurrency" class="font-weight-bold">To</label>
+                            <select onchange="changeData(this.id)" id="destinationCurrency" class="form-control"></select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="display-row my-3">
+            <div class="col-md-2">
+                <button onclick="results()" type="button" class="btn btn-primary">
+                    Convert
+                </button>
+            </div>
+            <div class="d-none" id="result">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Results</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <strong>Current Exchange Rate: </strong>
+                            <span id="fromCurrency"></span> = <span id="toCurrency"></span>
+                        </p>
+                        <p>
+                            <strong>Calculation Timestamp: </strong><span id="date"></span>
+                        </p>
+                        <p>
+                            <strong>Amount of transaction: </strong>
+                            <span id="sourceResult"></span> = <span id="destinationResult"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
