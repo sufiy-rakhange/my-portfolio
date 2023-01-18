@@ -26,9 +26,9 @@
                     <div class="col-md-8 mt-3">
                         <div class="form-group">
                             <label for="amount">Enter an amount</label>
-                            <input value="1" onkeyup="currencyValidation(this.value)" type="text" class="form-control" id="amount">
+                            <input onkeyup="currencyValidation(this.value)" value="1" type="number" min="1" class="form-control" id="amount">
                             <span class="d-none" id="error">
-                                <strong>Amount cannot be zero or negative</strong>
+                                <strong>Amount cannot be empty or less than 1</strong>
                             </span>
                         </div>
                     </div>

@@ -70,6 +70,10 @@ function changeData(myId = null, currency = null) {
 
 // Displaying the result section
 function results() {
+  if(document.getElementById("amount").value < 1) {
+    return false;
+  }
+
   document.getElementById("result").className = 'col-md-10';
 
   // Declaring variables
